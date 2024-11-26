@@ -87,7 +87,7 @@ body {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #777777;
+  color: #ffffff;
 }
 
 section {
@@ -143,7 +143,7 @@ button:focus {
 .section_title p {
   font-size: 14px;
   line-height: 30px;
-  color: #777777;
+  color: #ffffff;
   margin-bottom: 0px;
 }
 
@@ -329,7 +329,7 @@ button:focus {
 }
 
 .navbar {
-  background: #fff;
+  background:transparent;
   padding: 0px 25px;
 }
 
@@ -339,7 +339,7 @@ button:focus {
 
 .navbar .menu_nav .nav-item .nav-link {
   font: 500 12px/80px "Poppins", sans-serif;
-  color: #222222;
+  color: #727272;
   text-transform: uppercase;
   padding: 0px;
 }
@@ -494,7 +494,7 @@ button:focus {
 /*----------------------------------------------------*/
 /*============= Start banner_area css =============*/
 .banner_area {
-  background: #04091e;
+  background: #010720;
   position: relative;
   z-index: 1;
 }
@@ -529,22 +529,22 @@ button:focus {
 }
 
 .banner_content {
-  color: #fff;
+  color: #000000;
   margin-bottom: 94px;
 }
 
 .banner_content h6 {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: 1.4px;
   font-weight: 400;
 }
 
-.banner_content h2 {
-  font-size: 60px;
+.cont h2 {
+  font-size: 50px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .banner_content p {
@@ -555,8 +555,13 @@ button:focus {
 }
 
 /*============= End banner_area css =============*/
+.cont{
+  text-decoration-color: #000;
+
+}
+
 .hotel_booking_table {
-  background: #04091e;
+  background-color: #001020;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -592,24 +597,24 @@ button:focus {
   font-size: 13px;
   line-height: 38px;
   padding: 0px 20px;
-  color: #777777;
+  color: #ffffff;
   z-index: 0;
 }
 
 .book_tabel_item .form-group .input-group .form-control.placeholder {
-  color: #777777;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
-  color: #777777;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
-  color: #777777;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
-  color: #777777;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control:focus {
@@ -628,7 +633,7 @@ button:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #777777;
+  color: #ffffff;
   z-index: 2;
 }
 
